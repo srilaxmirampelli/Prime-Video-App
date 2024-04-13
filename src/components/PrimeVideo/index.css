@@ -1,0 +1,30 @@
+.prime-video-container {
+  background-color: black;
+  padding-bottom: 10vh;
+  min-height: 100vh;
+}
+.prime-video-img {
+  width: 100%;
+}
+.movies-slider-container {
+  width: 90%;
+  margin-bottom: 30px;
+  margin: auto;
+}
+@media screen and (min-width: 768px) {
+  .movies-slider-container {
+    max-width: 1110px;
+  }
+}
+.movies-slider-heading {
+  color: white;
+  font-size: 25px;
+  line-height: 1.5;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .movies-slider-heading {
+    font-size: 35px;
+  }
+}
